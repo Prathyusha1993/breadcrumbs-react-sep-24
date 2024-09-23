@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <h1>Breadcrumbs using React</h1>
       <BrowserRouter>
-      <Breadcrumbs />
+      <Breadcrumbs  />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/products' element={<ProductsDetails />} />
